@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Employeers</class>
+ <widget class="QWidget" name="Employeers">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1040</width>
+    <height>458</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Управление персоналом</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="3" column="0">
+    <widget class="QPushButton" name="pushButtonAddEmployee">
+     <property name="mouseTracking">
+      <bool>false</bool>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string>Добавить сотрудника</string>
+     </property>
+     <property name="autoRepeat">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="sortingEnabled">
+      <bool>true</bool>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="rowCount">
+      <number>1</number>
+     </property>
+     <row/>
+     <column>
+      <property name="text">
+       <string>Номер удостоверения</string>
+      </property>
+      <property name="font">
+       <font>
+        <hintingpreference>PreferFullHinting</hintingpreference>
+       </font>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Имя</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Фамилия</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Отчество</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Должность</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Зарплата</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Оружие</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Спецсредства</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Изменить</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Уволить</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QPushButton" name="pushButtonSchedule">
+     <property name="mouseTracking">
+      <bool>false</bool>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string>Посмотреть график дежурств</string>
+     </property>
+     <property name="autoRepeat">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

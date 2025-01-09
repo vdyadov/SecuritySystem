@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChangeEmployee</class>
+ <widget class="QWidget" name="ChangeEmployee">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>395</width>
+    <height>536</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Изменение данных о сотрудниках</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="10" column="1">
+    <widget class="QLabel" name="label_10">
+     <property name="text">
+      <string>ПФР</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLineEdit" name="lineEditIDNumber">
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>0</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLineEdit" name="lineEditTaxNumber"/>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Отчество</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLineEdit" name="lineEditSalary"/>
+   </item>
+   <item row="12" column="0">
+    <widget class="QLineEdit" name="lineEditspecialEquipment"/>
+   </item>
+   <item row="8" column="1">
+    <widget class="QLabel" name="label_8">
+     <property name="text">
+      <string>Номер лицензии</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLineEdit" name="lineEditPensionNumber"/>
+   </item>
+   <item row="15" column="1">
+    <widget class="QLabel" name="label_13">
+     <property name="text">
+      <string>Регистрационный номер</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="1">
+    <widget class="QLabel" name="label_11">
+     <property name="text">
+      <string>График дежурств</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLineEdit" name="lineEditMiddleName"/>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLineEdit" name="lineEditLicenseNumber"/>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Оклад</string>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="1">
+    <widget class="QLabel" name="label_12">
+     <property name="text">
+      <string>Спецсредства</string>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="1">
+    <widget class="QPushButton" name="pushButtonAddEmployee">
+     <property name="text">
+      <string>Обновить данные</string>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="0">
+    <widget class="QLineEdit" name="lineEditGunMark"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLineEdit" name="lineEditFirstName">
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>0</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="0">
+    <widget class="QLineEdit" name="lineEditSchedule"/>
+   </item>
+   <item row="14" column="1">
+    <widget class="QLabel" name="label_15">
+     <property name="text">
+      <string>Марка оружия</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Должность</string>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="0">
+    <widget class="QLineEdit" name="lineEditGunNumber"/>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>Надбавка</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>Номер удостоверения</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Фамилия</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLineEdit" name="lineEditLastName"/>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Имя</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="0">
+    <widget class="QCheckBox" name="checkBoxGun">
+     <property name="text">
+      <string>Ношение оружия</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLineEdit" name="lineEditPost"/>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLineEdit" name="lineEditPremium"/>
+   </item>
+   <item row="9" column="1">
+    <widget class="QLabel" name="label_9">
+     <property name="text">
+      <string>ИНН</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLineEdit" name="lineEditAddress"/>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLabel" name="label_14">
+     <property name="text">
+      <string>Адрес</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="1">
+    <widget class="QCheckBox" name="checkBoxIsShedule">
+     <property name="text">
+      <string>Найм для юр. лиц</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

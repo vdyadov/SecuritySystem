@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LegalEntity</class>
+ <widget class="QWidget" name="LegalEntity">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>840</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Юридическое лицо</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QPushButton" name="pushButtonSchedule">
+     <property name="text">
+      <string>График дежурств</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QPushButton" name="pushButtonPayment">
+     <property name="text">
+      <string>Счет на оплату</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="2">
+    <widget class="QTableWidget" name="tableWidget">
+     <column>
+      <property name="text">
+       <string>Фамилия</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Имя</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Отчество</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Должность</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Оклад</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Спецсредства</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Оружие</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Нанять</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
